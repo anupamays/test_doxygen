@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: xDPUStorageTest.lib.fungible.come_windows.ComEWindows Class Reference</title>
+<title>doxygen_test: xDPUStorageTest.lib.fungible.come_windows.ComEWindows Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,9 +23,8 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project<span id="projectnumber">&#160;Very early alpha</span>
+   <div id="projectname">doxygen_test
    </div>
-   <div id="projectbrief">integration testing</div>
   </td>
  </tr>
  </tbody>
@@ -112,8 +111,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a29c078e32c8ccd36b6ddb139dbf65204"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9554b989f693a28b80f1f86f4a6a568b" id="r_a9554b989f693a28b80f1f86f4a6a568b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9554b989f693a28b80f1f86f4a6a568b">install_dpcproxy_service</a> (self, str directory, bool validate=False)</td></tr>
 <tr class="separator:a9554b989f693a28b80f1f86f4a6a568b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7de81a3bd801a6c65b43fbf470003756" id="r_a7de81a3bd801a6c65b43fbf470003756"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7de81a3bd801a6c65b43fbf470003756">install_dpumetricagent_service</a> (self, str directory, bool validate=False)</td></tr>
-<tr class="separator:a7de81a3bd801a6c65b43fbf470003756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e5335638b69db449bca54d9bc43668d" id="r_a8e5335638b69db449bca54d9bc43668d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e5335638b69db449bca54d9bc43668d">install_dpumetricagent_service</a> (self, str directory, str version, bool validate=True)</td></tr>
+<tr class="separator:a8e5335638b69db449bca54d9bc43668d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98dcaf7f5190be96d62fde381256b4ce" id="r_a98dcaf7f5190be96d62fde381256b4ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98dcaf7f5190be96d62fde381256b4ce">verify_installed_dpumetricagent_version</a> (self, str directory, str version)</td></tr>
+<tr class="separator:a98dcaf7f5190be96d62fde381256b4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ad3cb434a7716f1a91895a7fc021bfb" id="r_a8ad3cb434a7716f1a91895a7fc021bfb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ad3cb434a7716f1a91895a7fc021bfb">install_dpunetagent_service</a> (self, str directory, bool validate=False)</td></tr>
 <tr class="separator:a8ad3cb434a7716f1a91895a7fc021bfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ef6ae34e5c6cb8d5e2bfed2c127835c" id="r_a7ef6ae34e5c6cb8d5e2bfed2c127835c"><td class="memItemLeft" align="right" valign="top">IpConfigElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ef6ae34e5c6cb8d5e2bfed2c127835c">get_fungible_ethernet_device_ip_config</a> (self)</td></tr>
@@ -583,8 +584,8 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7de81a3bd801a6c65b43fbf470003756" name="a7de81a3bd801a6c65b43fbf470003756"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7de81a3bd801a6c65b43fbf470003756">&#9670;&#160;</a></span>install_dpumetricagent_service()</h2>
+<a id="a8e5335638b69db449bca54d9bc43668d" name="a8e5335638b69db449bca54d9bc43668d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e5335638b69db449bca54d9bc43668d">&#9670;&#160;</a></span>install_dpumetricagent_service()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +603,12 @@ Protected Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>validate</em><span class="paramdefsep"> = </span><span class="paramdefval">False</span></span>&#160;)</td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>version</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool </td>          <td class="paramname"><span class="paramname"><em>validate</em><span class="paramdefsep"> = </span><span class="paramdefval">True</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -757,6 +763,32 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a98dcaf7f5190be96d62fde381256b4ce" name="a98dcaf7f5190be96d62fde381256b4ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98dcaf7f5190be96d62fde381256b4ce">&#9670;&#160;</a></span>verify_installed_dpumetricagent_version()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> bool xDPUStorageTest.lib.fungible.come_windows.ComEWindows.verify_installed_dpumetricagent_version </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>directory</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">str</td>          <td class="paramname"><span class="paramname"><em>version</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a4e7f5e67e36b2c96f0044200957185bd" name="a4e7f5e67e36b2c96f0044200957185bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e7f5e67e36b2c96f0044200957185bd">&#9670;&#160;</a></span>dataplane_gateway</h2>
@@ -831,7 +863,7 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/anupamays/xDPUinfra/xDPUStorageTest/lib/fungible/<a class="el" href="come__windows_8py.html">come_windows.py</a></li>
+<li>lib/fungible/<a class="el" href="come__windows_8py.html">come_windows.py</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -103,6 +103,5 @@ var searchData=
   ['builderservice_100',['BuilderService',['../classbuilder__service_1_1_builder_service.html',1,'builder_service']]],
   ['buildtracker_101',['BuildTracker',['../classpip_1_1__internal_1_1operations_1_1build_1_1build__tracker_1_1_build_tracker.html',1,'pip::_internal::operations::build::build_tracker']]],
   ['buildworker_102',['BuildWorker',['../classbuilder__service_1_1_build_worker.html',1,'builder_service.BuildWorker'],['../classx_d_p_u_storage_test_1_1lib_1_1fungible_1_1fungible__dut_1_1_fungible_dut_1_1_build_worker.html',1,'xDPUStorageTest.lib.fungible.fungible_dut.FungibleDut.BuildWorker']]],
-  ['bundleoptions_103',['BundleOptions',['../classx_d_p_u_storage_test_1_1infra_1_1system_1_1installation__options_1_1_bundle_options.html',1,'xDPUStorageTest::infra::system::installation_options']]],
-  ['bytesqueuebuffer_104',['BytesQueueBuffer',['../classurllib3_1_1response_1_1_bytes_queue_buffer.html',1,'urllib3::response']]]
+  ['bytesqueuebuffer_103',['BytesQueueBuffer',['../classurllib3_1_1response_1_1_bytes_queue_buffer.html',1,'urllib3::response']]]
 ];
